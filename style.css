@@ -22,6 +22,9 @@ body {
     resize: both;
     background-color: rgb(201, 170, 199);
     font-size: 20px;
+    border-radius: 8px;
+    color: rgb(12, 12, 91);
+    padding: 15px;
 }
 
 .note-container {
@@ -37,13 +40,15 @@ body {
     opacity: 1;
     font-style: italic;
     font-size: 40px;
+    text-align: center;
+    padding-top: 55px;
 }
 
 .btn {
     width: 175px;
     height: 50px;
     font-size: 20px;
-    border-radius: 4px;
+    border-radius: 10px;
     display: block; 
     margin: 20px auto;
 }
@@ -52,7 +57,7 @@ body {
     width: 100px;
     height: 50px;
     font-size: 20px;
-    border-radius: 4px;
+    border-radius: 10px;
     display: block;
     margin: 20px auto;
 }
