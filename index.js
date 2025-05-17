@@ -12,7 +12,7 @@ function createNote(content) {
 
     deleteBtn.textContent = "delete";
 
-    textarea.placeholder = "Empty Note";
+    textarea.placeholder = "Note";
     textarea.value = content;
 
     

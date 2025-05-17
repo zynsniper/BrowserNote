@@ -1,40 +1,58 @@
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
-.title {
-    background-color: azure;
+
+body {
+    background-color: rgb(213, 244, 244);
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-size: 40;
+    font-size: 50px;
+
 }
 
+
 .note {
-    width: 300px;
-    height: 150px;
+    width: 400px;
+    height: 200px;
     resize: both;
     background-color: rgb(201, 170, 199);
+    font-size: 20px;
+}
+
+.note-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.note::placeholder {
+    color: rgb(213, 244, 244);
+    opacity: 1;
+    font-style: italic;
+    font-size: 40px;
 }
 
 .btn {
-    width: 100px;
+    width: 175px;
     height: 50px;
-    resize: both;
-    font-size: 20;
+    font-size: 20px;
     border-radius: 4px;
-    
+    display: block; 
+    margin: 20px auto;
 }
 
 .deleteBtn {
     width: 100px;
     height: 50px;
-    resize: both;
-    font-size: 40;
+    font-size: 20px;
     border-radius: 4px;
     display: block;
-    margin: 5 auto;
+    margin: 20px auto;
 }
