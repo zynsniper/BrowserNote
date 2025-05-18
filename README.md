@@ -33,3 +33,14 @@ DOM Manipulation:
 - Event Handling: Learned to respond to user interactions like clicks and input changes.
 - Dynamic Content Creation: Built functionality to add, edit, and remove elements dynamically.
 - Collaborative Development: Practiced working on a shared codebase and managing version control with Git and GitHub.
+
+📈 Future Improvements
+
+Persistent Storage:
+- Implement localStorage to save notes between sessions.
+
+Search Functionality:
+- Add the ability to search through notes.
+
+Categorization:
+- Allow users to categorize or tag notes for better organization.
